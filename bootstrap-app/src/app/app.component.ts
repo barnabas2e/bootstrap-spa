@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bootstrap-app';
+  images: Object = {
+    cnn: "assets\images\bg00.jpg",
+    msnbc: "assets\images\msnbc.png",
+    mtv: "assets\images\mtv-news.png"
+  }
+
+  cnn = "assets\images\bg00.jpg";
 }
